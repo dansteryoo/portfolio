@@ -1,0 +1,17 @@
+body { 
+  background-color: #fff;
+
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 38%;
+  margin-top: 11%;
+}
+
+.loading-logo {
+  height: 40%;
+  width: 40%;
+	transition: 1s ease-out
+}
