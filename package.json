@@ -2,8 +2,9 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dansteryoo.github.io/portfolio",
+  "homepage": "https://dansteryoo.io",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
@@ -16,8 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "browserslist": {
     "production": [
