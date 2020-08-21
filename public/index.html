@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-      <script type="text/javascript" src="https://l2.io/ip.js?var=session_id"></script>
+      <script type="text/javascript" src="https://l2.io/ip.js?var=id"></script>
 
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163890830-1"></script>
       <script>
@@ -21,8 +21,13 @@
           m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
       })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+      var d = new Date().toDateString()
+      var t = new Date().toTimeString().slice(0, 8)
+
       ga('create', 'UA-163890830-1', 'auto');
-      ga('set', 'dimension1', session_id);
+      ga('set', 'dimension1', id);
+      ga('set', 'dimension2', d);
+      ga('set', 'dimension3', t);
       ga('send', 'pageview');
     </script>
 
