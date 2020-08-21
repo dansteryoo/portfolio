@@ -4,6 +4,7 @@ $gray: #3d3d3d;
 $black_soft: #222;
 $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, sans-serif;
 
+
 .main-container { 
     display: flex;
     width: 100%; 
@@ -15,7 +16,7 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
 }
 
 .mid-container {
-    width: 70%;
+    width: 100%;
     margin: 5% 0 0 15%;
 
     p {
@@ -24,6 +25,7 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
         font-weight: 600;
         font-size: 2em;
         padding-left: 2px;
+        min-width: 600px;
     }
 
     .name-text {
@@ -32,6 +34,7 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
         font-family: 'Poppins';
         line-height: 4rem;  
         margin: 4% 0;
+        min-width: 600px;
     }
 
     .second-text {
@@ -39,16 +42,17 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
         font-size: 2rem;
         line-height: 2rem;
         margin-top: 2%;
+        min-width: 600px;
     }
 
     .third-text {
-        width: 70%;
         color: $black_soft;
         line-height: 3rem;
         font-family: sans-serif;
         font-weight: 600;
         font-size: 1.7em;
         padding-bottom: 6%;
+        min-width: 600px;
     }
 
 }

@@ -39,6 +39,7 @@ $font_bold: 'Poppins';
 
     .bio-text {
         width: 47%;
+        min-width: 430px;
         color: $dark_gray;
         font-family: sans-serif;
         line-height: 1.8rem;
@@ -58,21 +59,23 @@ $font_bold: 'Poppins';
 
     .profile-img {
         width: 85%;
+        min-width: 430px;
+        max-width: 600px;
     }
 }
 
 .tech-icons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    min-width: 600px;
     margin-top: 20px;
+    flex-wrap: wrap;
 
     img {
         height: 100px;
+        min-height: 60px;
     }
 }
 
-.abc{
+.abc {
     border: 1px solid $mint_medium;
         position: relative;
     right: -230px;
