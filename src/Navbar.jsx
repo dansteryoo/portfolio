@@ -25,19 +25,23 @@ class NavBar extends React.Component {
 
 
         if (windowWidth <= 800) {
-            first = Math.floor((scrollHeight / 6.8))
+            first = Math.floor((scrollHeight / 7.4))
             second = Math.floor((scrollHeight / 3.2))
 
-        } else if (windowWidth > 800 && windowWidth <= 1380) {
-            first = Math.floor((scrollHeight / 6.4))
-            second = Math.floor((scrollHeight / 2.9))
+        } else if (windowWidth > 800 && windowWidth <= 1080) {
+            first = Math.floor((scrollHeight / 7))
+            second = Math.floor((scrollHeight / 3))
+
+        } else if (windowWidth > 1080 && windowWidth <= 1380) {
+            first = Math.floor((scrollHeight / 6.6))
+            second = Math.floor((scrollHeight / 2.8))
 
         } else if (windowWidth > 1380 && windowWidth <= 1680) {
-            first = Math.floor((scrollHeight / 5.9))
+            first = Math.floor((scrollHeight / 6.3))
             second = Math.floor((scrollHeight / 2.75))
         } else {
-            first = Math.floor((scrollHeight / 5.5))
-            second = Math.floor((scrollHeight / 2.5))
+            first = Math.floor((scrollHeight / 6))
+            second = Math.floor((scrollHeight / 2.7))
         }
 
         if (e.target.className === 'first') {
@@ -55,7 +59,7 @@ class NavBar extends React.Component {
     render() {
         return (
             <div className="NavContainer">
-                <a href="#">
+                <a href="#" alt="home">
                     <img className="logo" src={logo_circle}></img>
                 </a>
                 <ul>

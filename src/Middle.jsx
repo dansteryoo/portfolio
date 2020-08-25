@@ -248,7 +248,7 @@ class Middle extends React.Component {
 
                                                     <Folder className="folder-svg"></Folder>
                                                     <a href="https://github.com/dansteryoo/vbshelper" target="_blank" rel="noopener noreferrer"><GithubSVG className="github-upcoming"></GithubSVG></a>
-                                                    <a href="" target="_blank" rel="noopener noreferrer"><GoTo className="go-to-upcoming"></GoTo></a>
+                                                    <a href="#" rel="noopener noreferrer"><GoTo className="go-to-upcoming"></GoTo></a>
                                                 </div>
                                                 <h5>VBS Helper</h5>
                                                 <div className="descript-note">
@@ -278,7 +278,7 @@ class Middle extends React.Component {
 
                                                     <Folder className="folder-svg"></Folder>
                                                     <a href="https://github.com/dansteryoo/fantasy_fistpump" target="_blank" rel="noopener noreferrer"><GithubSVG className="github-upcoming"></GithubSVG></a>
-                                                    <a href="" target="_blank" rel="noopener noreferrer"><GoTo className="go-to-upcoming"></GoTo></a>
+                                                    <a href="#" rel="noopener noreferrer"><GoTo className="go-to-upcoming"></GoTo></a>
                                                 </div>
                                                 <h5>Fantasy FistPump</h5>
                                                 <div className="descript-note">
@@ -315,39 +315,3 @@ class Middle extends React.Component {
 }
 
 export default Middle;
-
-
-// <img className="profile-img" src={profileImg}></img>
-
-// <ScrollAnimation animateIn="fadeIn" delay="300">
-//     <h1 className="second-text">  </h1>
-// </ScrollAnimation>
-
-// <ScrollAnimation animateIn="fadeIn" delay="500">
-//     <div className="note-1">
-//         <div className="inner-cont">
-//             <header>
-//                 <div className="top-logo-cont">
-
-
-
-
-//                     <Folder className="folder-svg"></Folder>
-//                     <a href="https://github.com/dansteryoo/BenchBnB-2" target="_blank" rel="noopener noreferrer"><GoTo className="go-to"></GoTo></a>
-//                 </div>
-//                 <h5>BenchBnB</h5>
-//                 <div className="descript-note">
-//                     a Lite version of AirBnB with benches instead!
-//                                                 </div>
-//             </header>
-//             <footer>
-//                 <ul className="tech-list">
-//                     <li>React.js</li>
-//                     <li>Redux.js</li>
-//                     <li>Postgres</li>
-//                     <li>Ruby on Rails</li>
-//                 </ul>
-//             </footer>
-//         </div>
-//     </div>
-// </ScrollAnimation>

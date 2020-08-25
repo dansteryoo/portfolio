@@ -36,6 +36,7 @@ $font_bold: 'Poppins';
 .prof-container {
     display: flex;
     justify-content: space-between;
+    width: 98%;
 
     .bio-text {
         width: 47%;
@@ -55,10 +56,9 @@ $font_bold: 'Poppins';
     align-items: flex-end;
     display: flex;
     flex-direction: column;
-    padding-right: 10px;
 
     .profile-img {
-        width: 85%;
+        width: 90%;
         min-width: 430px;
         max-width: 600px;
     }
@@ -179,11 +179,10 @@ $font_bold: 'Poppins';
     grid-row: 1 / -1;
     border-radius: 4px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    width: 100%;
     height: 80%;
     margin-top: 15%;
     object-fit: fill;
-    filter: grayscale(70%);
+    filter: grayscale(80%);
 }
 
 .project-1-pic:hover {
@@ -270,11 +269,10 @@ li.tech-items:hover {
     grid-row: 1 / -1;
     border-radius: 4px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
-    width: 100%;
     height: 80%;
     margin-top: 15%;
     object-fit: fill;
-    filter: grayscale(70%);
+    filter: grayscale(80%);
 }
 
 .project-2-pic:hover {

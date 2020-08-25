@@ -2,7 +2,7 @@ import React from 'react';
 import LeftNav from './LeftNav'
 import RightSide from './RightSide'
 import Middle from './Middle'
-import './stylesheet/Main.scss'
+import './stylesheet/main.scss'
 
 
 class Main extends React.Component {
