@@ -192,7 +192,7 @@ $font_bold: 'Poppins';
 
 .project-1-rightside {
     position: relative;
-    grid-column: 16 / 25;
+    grid-column: 18 / 25;
     grid-row: 1 / -1;
     z-index: 2;
     text-align: left;
@@ -265,7 +265,7 @@ li.tech-items:hover {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
     position: relative;
     z-index: 1;
-    grid-column: 11 / 25;
+    grid-column: 9 / 25;
     grid-row: 1 / -1;
     border-radius: 4px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
