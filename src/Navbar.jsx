@@ -25,23 +25,23 @@ class NavBar extends React.Component {
 
 
         if (windowWidth <= 800) {
-            first = Math.floor((scrollHeight / 7.4))
-            second = Math.floor((scrollHeight / 3.2))
+            first = Math.floor((scrollHeight / 7.8))
+            second = Math.floor((scrollHeight / 3.4))
 
         } else if (windowWidth > 800 && windowWidth <= 1080) {
             first = Math.floor((scrollHeight / 7))
-            second = Math.floor((scrollHeight / 3))
+            second = Math.floor((scrollHeight / 3.1))
 
         } else if (windowWidth > 1080 && windowWidth <= 1380) {
-            first = Math.floor((scrollHeight / 6.6))
-            second = Math.floor((scrollHeight / 2.8))
+            first = Math.floor((scrollHeight / 6.8))
+            second = Math.floor((scrollHeight / 3.1))
 
         } else if (windowWidth > 1380 && windowWidth <= 1680) {
-            first = Math.floor((scrollHeight / 6.3))
-            second = Math.floor((scrollHeight / 2.75))
+            first = Math.floor((scrollHeight / 6.5))
+            second = Math.floor((scrollHeight / 2.95))
         } else {
-            first = Math.floor((scrollHeight / 6))
-            second = Math.floor((scrollHeight / 2.7))
+            first = Math.floor((scrollHeight / 6.1))
+            second = Math.floor((scrollHeight / 2.8))
         }
 
         if (e.target.className === 'first') {

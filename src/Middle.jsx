@@ -104,7 +104,7 @@ class Middle extends React.Component {
                             <img className="tech-img" src={reduxImg} alt="aboutme-tech-icon"></img>
                             <img className="tech-img" src={graphqlImg} alt="aboutme-tech-icon"></img>
                             <img className="tech-img" src={rubyonrailsImg} alt="aboutme-tech-icon"></img>
-                            <img className="tech-img" src={mongodbImg} alt="aboutme-tech-icon"></img>
+                            <img id="mongo" className="tech-img" src={mongodbImg} alt="aboutme-tech-icon"></img>
                             <img className="tech-img" src={postresqlImg} alt="aboutme-tech-icon"></img>
                             <img className="tech-img" src={herokuImg} alt="aboutme-tech-icon"></img>
                             <img className="tech-img" src={html5Img} alt="aboutme-tech-icon"></img>
@@ -121,7 +121,7 @@ class Middle extends React.Component {
                         {/* ---------- FEATURE PROJECT 1 ---------- */}
 
                         <ScrollAnimation animateIn="zoomIn">
-                            <div className="Project-1">
+                            <div className="Project-2">
                                 <div className="project-2-rightside">
                                     <h4 className="feat-header">Featured Project</h4>
                                     <h5 className="Proj-name">We Read Truth</h5>
@@ -153,15 +153,21 @@ class Middle extends React.Component {
                         <ScrollAnimation animateIn="zoomIn">
                             <div className="Project-1">
                                 <div className="project-1-rightside">
-                                    <h4 className="feat-header">Featured Project</h4>
-                                    <h5 className="Proj-name">ChairsBnB</h5>
+                                    <div className="project-1-links">
+                                        <h4 className="feat-header">Featured Project</h4>
+                                    </div>
+                                    <div className="project-1-links">
+                                        <h5 className="Proj-name">ChairsBnB</h5>
+                                    </div>
                                     <div className="proj-description">
                                         <p className="proj-description-text">
                                             A website for solo travelers who can rent single chairs around the world inspired by Airbnb.
                                     </p>
                                     </div>
-                                    <a href="https://github.com/dansteryoo/chairsbnb" target="_blank" rel="noopener noreferrer"><GithubSVG className="github"></GithubSVG></a>
-                                    <a href="http://chairsbnb.herokuapp.com/" target="_blank" rel="noopener noreferrer"><GoTo className="go-to"></GoTo></a>
+                                    <div className="project-1-links">
+                                        <a href="https://github.com/dansteryoo/chairsbnb" target="_blank" rel="noopener noreferrer"><GithubSVG className="github"></GithubSVG></a>
+                                        <a href="http://chairsbnb.herokuapp.com/" target="_blank" rel="noopener noreferrer"><GoTo className="go-to"></GoTo></a>
+                                    </div>
                                     <ul className="tech-list2">
                                         <li className="tech-items">Ruby On Rails</li>
                                         <li className="tech-items">React + Redux</li>
@@ -179,7 +185,7 @@ class Middle extends React.Component {
                         {/* ---------- FEATURE PROJECT 3 ---------- */}
 
                         <ScrollAnimation animateIn="zoomIn">
-                            <div className="Project-1">
+                            <div className="Project-2">
                                 <div className="project-2-rightside">
                                     <h4 className="feat-header">Featured Project</h4>
                                     <h5 className="Proj-name">SchoolForce</h5>
@@ -210,16 +216,21 @@ class Middle extends React.Component {
                         <ScrollAnimation animateIn="zoomIn">
                             <div className="Project-1">
                                 <div className="project-1-rightside">
-                                    <h4 className="feat-header">Featured Project</h4>
-                                    <h5 className="Proj-name">SeeFude.com</h5>
+                                    <div className="project-1-links">
+                                        <h4 className="feat-header">Featured Project</h4>
+                                    </div>
+                                    <div className="project-1-links">
+                                        <h5 className="Proj-name">Seefude.com</h5>
+                                    </div>
                                     <div className="proj-description">
                                         <p className="proj-description-text">
                                         A data visualization site that helps users make healthier food choices by tracking their nutritional facts.
                                         </p>
                                     </div>
-
-                                    <a href="https://github.com/dansteryoo/seefude.com" target="_blank" rel="noopener noreferrer"><GithubSVG className="github"></GithubSVG></a>
-                                    <a href="https://dansteryoo.io/seefude.com" target="_blank" rel="noopener noreferrer"><GoTo className="go-to"></GoTo></a>
+                                    <div className="project-1-links">
+                                        <a href="https://github.com/dansteryoo/seefude.com" target="_blank" rel="noopener noreferrer"><GithubSVG className="github"></GithubSVG></a>
+                                        <a href="https://dansteryoo.io/seefude.com" target="_blank" rel="noopener noreferrer"><GoTo className="go-to"></GoTo></a>
+                                    </div>
                                     <ul className="tech-list2">
                                         <li className="tech-items">JavaScript</li>
                                         <li className="tech-items">D3.js</li>
