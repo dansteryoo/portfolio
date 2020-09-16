@@ -268,11 +268,10 @@ class Middle extends React.Component {
                                             </header>
                                             <footer>
                                                 <ul className="tech-list">
-                                                    <li>MongoDB</li>
-                                                    <li>Express</li>
+                                                    <li>Postgres</li>
+                                                    <li>Django</li>
                                                     <li>GraphQL</li>
                                                     <li>React</li>
-                                                    <li>Node.js</li>
                                                 </ul>
                                             </footer>
                                         </div>
