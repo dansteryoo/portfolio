@@ -390,13 +390,13 @@ class Middle extends React.Component {
                             <div className="top-logo-cont">
                               <Folder className="folder-svg"></Folder>
                               <a
-                                href="https://github.com/dansteryoo/vbshelper"
+                                href="https://github.com/dansteryoo"
                                 target="_blank"
                                 rel="noopener noreferrer"
                               >
                                 <GithubSVG className="github-upcoming"></GithubSVG>
                               </a>
-                              <a href="#" rel="noopener noreferrer">
+                              <a href="https://www.vbshelper.com" rel="noopener noreferrer">
                                 <GoTo className="go-to-upcoming"></GoTo>
                               </a>
                             </div>
