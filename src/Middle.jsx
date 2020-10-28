@@ -396,9 +396,11 @@ class Middle extends React.Component {
                               >
                                 <GithubSVG className="github-upcoming"></GithubSVG>
                               </a>
-                              <a href="https://www.vbshelper.com" 
-                                 target="_blank"
-                                 rel="noopener noreferrer">
+                              <a
+                                href="https://www.vbshelper.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                              >
                                 <GoTo className="go-to-upcoming"></GoTo>
                               </a>
                             </div>
