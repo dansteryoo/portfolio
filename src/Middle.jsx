@@ -20,6 +20,7 @@ import chairsbnb from './static/chairsbnb.png'
 import schoolforce from './static/schoolforce.png'
 import seefude from './static/seefude.png'
 import we_read_truth from './static/we_read_truth.png'
+import vbs from "./static/vbs_helper.png";
 import { ReactComponent as GithubSVG } from './static/Github.svg'
 import { ReactComponent as GoTo } from './static/goTo.svg'
 import { ReactComponent as Folder } from './static/folder.svg'
@@ -231,8 +232,8 @@ class Middle extends React.Component {
 
                     <img
                       className="project-1-pic"
-                      src={chairsbnb}
-                      alt="chairsbnb"
+                      src={vbs}
+                      alt="vbs"
                     ></img>
                   </div>
                 </ScrollAnimation>
