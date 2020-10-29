@@ -230,11 +230,7 @@ class Middle extends React.Component {
                       </ul>
                     </div>
 
-                    <img
-                      className="project-1-pic"
-                      src={vbs}
-                      alt="vbs"
-                    ></img>
+                    <img className="project-1-pic" src={vbs} alt="vbs"></img>
                   </div>
                 </ScrollAnimation>
 
@@ -270,8 +266,8 @@ class Middle extends React.Component {
 
                       <ul className="tech-list2-2">
                         <li className="tech-items">Ruby on Rails</li>
-                        <li className="tech-items">React</li>
-                        <li className="tech-items">Redux</li>
+                        <li className="tech-items">React + Redux</li>
+                        <li className="tech-items">Httparty + Nokogiri</li>
                         <li className="tech-items">Postgres</li>
                       </ul>
                     </div>
