@@ -188,7 +188,56 @@ class Middle extends React.Component {
                 <div className="experience-header">My Projects</div>
               </ScrollAnimation>
               <div className="innter-container">
-                {/* ---------- FEATURE PROJECT 1 ---------- */}
+                {/* ---------- FEATURE: VBS HELPER ---------- */}
+
+                <ScrollAnimation animateIn="zoomIn">
+                  <div className="Project-1">
+                    <div className="project-1-rightside">
+                      <div className="project-1-links">
+                        <h4 className="feat-header">Featured Project</h4>
+                      </div>
+                      <div className="project-1-links">
+                        <h5 className="Proj-name">VBS Helper</h5>
+                      </div>
+                      <div className="proj-description">
+                        <p className="proj-description-text">
+                          A simple VBS manager to assist churches and parents
+                          manage their information easier.
+                        </p>
+                      </div>
+                      <div className="project-1-links">
+                        <a
+                          href="https://github.com/dansteryoo"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <GithubSVG className="github"></GithubSVG>
+                        </a>
+                        <a
+                          href="https://www.vbshelper.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <GoTo className="go-to"></GoTo>
+                        </a>
+                      </div>
+                      <ul className="tech-list2">
+                        <li className="tech-items">Django</li>
+                        <li className="tech-items">React</li>
+                        <li className="tech-items">Apollo</li>
+                        <li className="tech-items">Postgres</li>
+                      </ul>
+                    </div>
+
+                    <img
+                      className="project-1-pic"
+                      src={chairsbnb}
+                      alt="chairsbnb"
+                    ></img>
+                  </div>
+                </ScrollAnimation>
+
+                {/* ---------- FEATURE: WE READ TRUTH ---------- */}
 
                 <ScrollAnimation animateIn="zoomIn">
                   <div className="Project-2">
@@ -211,7 +260,7 @@ class Middle extends React.Component {
                         <GithubSVG className="github"></GithubSVG>
                       </a>
                       <a
-                        href="https://wereadtruth.app/"
+                        href="https://www.wereadtruth.app"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -220,10 +269,9 @@ class Middle extends React.Component {
 
                       <ul className="tech-list2-2">
                         <li className="tech-items">Ruby on Rails</li>
-                        <li className="tech-items">React + Redux</li>
-                        <li className="tech-items">Postgresql</li>
-                        <li className="tech-items">Nokogiri Gem</li>
-                        <li className="tech-items">HTTParty Gem</li>
+                        <li className="tech-items">React</li>
+                        <li className="tech-items">Redux</li>
+                        <li className="tech-items">Postgres</li>
                       </ul>
                     </div>
 
@@ -235,7 +283,7 @@ class Middle extends React.Component {
                   </div>
                 </ScrollAnimation>
 
-                {/* ---------- FEATURE PROJECT 2 ---------- */}
+                {/* ---------- FEATURE: CHAIRSBNB ---------- */}
 
                 <ScrollAnimation animateIn="zoomIn">
                   <div className="Project-1">
@@ -261,7 +309,7 @@ class Middle extends React.Component {
                           <GithubSVG className="github"></GithubSVG>
                         </a>
                         <a
-                          href="http://chairsbnb.herokuapp.com/"
+                          href="https://chairsbnb.herokuapp.com"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -284,7 +332,7 @@ class Middle extends React.Component {
                   </div>
                 </ScrollAnimation>
 
-                {/* ---------- FEATURE PROJECT 3 ---------- */}
+                {/* ---------- FEATURE: SCHOOLFORCE ---------- */}
 
                 <ScrollAnimation animateIn="zoomIn">
                   <div className="Project-2">
@@ -305,7 +353,7 @@ class Middle extends React.Component {
                         <GithubSVG className="github"></GithubSVG>
                       </a>
                       <a
-                        href="http://school-force.herokuapp.com/"
+                        href="https://school-force.herokuapp.com"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -328,7 +376,7 @@ class Middle extends React.Component {
                   </div>
                 </ScrollAnimation>
 
-                {/* ---------- FEATURE PROJECT 4 ---------- */}
+                {/* ---------- FEATURE: SEEFUDE ---------- */}
 
                 <ScrollAnimation animateIn="zoomIn">
                   <div className="Project-1">
@@ -383,46 +431,6 @@ class Middle extends React.Component {
                     <h4 className="header-4">Upcoming Projects</h4>
                   </ScrollAnimation>
                   <div className="noteworthy-projects">
-                    <ScrollAnimation animateIn="fadeIn" delay="300">
-                      <div className="note-1">
-                        <div className="inner-cont">
-                          <header>
-                            <div className="top-logo-cont">
-                              <Folder className="folder-svg"></Folder>
-                              <a
-                                href="https://github.com/dansteryoo"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <GithubSVG className="github-upcoming"></GithubSVG>
-                              </a>
-                              <a
-                                href="https://www.vbshelper.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <GoTo className="go-to-upcoming"></GoTo>
-                              </a>
-                            </div>
-                            <h5>VBS Helper</h5>
-                            <div className="descript-note">
-                              A “CRM” website that allows churches to collect,
-                              organize, and manage student registration while
-                              also allowing communication with parents via SMS
-                              messaging.
-                            </div>
-                          </header>
-                          <footer>
-                            <ul className="tech-list">
-                              <li>Postgres</li>
-                              <li>Django</li>
-                              <li>GraphQL</li>
-                              <li>React</li>
-                            </ul>
-                          </footer>
-                        </div>
-                      </div>
-                    </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeIn" delay="500">
                       <div className="note-1">
                         <div className="inner-cont">
