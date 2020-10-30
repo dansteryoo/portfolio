@@ -224,7 +224,7 @@ class Middle extends React.Component {
                       </div>
                       <ul className="tech-list2">
                         <li className="tech-items">Django</li>
-                        <li className="tech-items">React</li>
+                        <li className="tech-items">React + Recoil</li>
                         <li className="tech-items">Apollo</li>
                         <li className="tech-items">Postgres</li>
                       </ul>
