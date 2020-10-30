@@ -26,7 +26,7 @@ import { ReactComponent as GoTo } from './static/goTo.svg'
 import { ReactComponent as Folder } from './static/folder.svg'
 import ScrollAnimation from 'react-animate-on-scroll';
 import './stylesheet/animate.css'
-
+import Resume from "./static/Danny_Yoo_SWE_Resume.pdf";
 
 class Middle extends React.Component {
     constructor(props) {
@@ -62,9 +62,9 @@ class Middle extends React.Component {
                 </p>
               </ScrollAnimation>
               <ScrollAnimation animateIn="fadeIn" delay="500">
-                <a href="mailto:dansteryoo@gmail.com">
-                  <button className="Get-In-Touch"> Get In Touch </button>
-                </a>
+                  <a href={Resume} target="_blank" rel="noopener noreferrer">
+                    <button className="Get-In-Touch">My Resume</button>
+                  </a>
               </ScrollAnimation>
             </div>
 
@@ -143,8 +143,6 @@ class Middle extends React.Component {
                     src={reduxImg}
                     alt="aboutme-tech-icon"
                   ></img>
-                </div>
-                <div className="tech-icons">
                   <img
                     className="tech-img"
                     src={graphqlImg}

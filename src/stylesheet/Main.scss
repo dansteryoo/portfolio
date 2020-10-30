@@ -12,7 +12,6 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
 
 .left-container {
     width: 15%;
-    
 }
 
 .mid-container {
@@ -52,9 +51,34 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
         font-weight: 600;
         font-size: 1.7em;
         padding-bottom: 6%;
-        min-width: 600px;
+        width: 600px;
     }
 
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+        margin: 5% 20% 0 10%;
+        max-width: 260px;
+
+        p {
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+
+        .name-text {
+            font-size: 2.5rem;
+            font-family: 'Poppins';
+            line-height: 4rem;  
+            margin: 2% 0;
+        }
+
+        .third-text {
+            font-weight: 500;
+            font-size: 1rem;
+            line-height: 1.8rem;
+            width: 100%;
+            max-width: 290px;
+        }
+    }
 }
 
 .right-container {

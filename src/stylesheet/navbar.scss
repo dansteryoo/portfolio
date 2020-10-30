@@ -52,6 +52,24 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
             cursor: pointer;
         }
     }
+
+    @media only screen and (max-width: 1280px) {
+      ul {
+        margin-left: 20%;
+      }
+    }
+  
+    @media only screen and (max-width: 900px) {
+      ul {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .logo {
+        display: none;
+      }
+    }
 }
 
   .resume-button {

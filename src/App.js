@@ -25,10 +25,10 @@ class App extends React.Component {
   render() {
     let loaded;
     if (this.state.loaded) {
-      loaded = <div>
+      loaded = <>
         <NavBar ></NavBar>
         <MainContainer ></MainContainer>
-      </div>
+      </>
     } else {
       loaded = <div className="loading-container">
         <img className="loading-logo" src={Loading} alt="loading"></img>
@@ -36,10 +36,9 @@ class App extends React.Component {
 
     }
     return (
-      <div>
+      <>
         {loaded}
-
-      </div>
+      </>
     )
   }
 }
