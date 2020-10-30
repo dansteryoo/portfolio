@@ -73,7 +73,7 @@ $font_bold: 'Poppins';
             font-weight: 500;
             margin-top: 20px;
             width: 100%;
-            max-width: 260px;
+            max-width: 280px;
         }
     }
 }
@@ -101,7 +101,7 @@ $font_bold: 'Poppins';
     @media only screen and (max-width: 600px) {
         align-items: center;
         display: flex;
-        width: 260px;
+        width: 290px;
 
         .profile-img {
             padding: 10% 0;
@@ -132,7 +132,7 @@ $font_bold: 'Poppins';
     @media only screen and (max-width: 600px) {
         flex-wrap: wrap;
         width: 100%;
-        max-width: 260px;
+        max-width: 290px;
 
         img {
             width: 33%;
@@ -257,6 +257,7 @@ $font_bold: 'Poppins';
     @media only screen and (max-width: 600px) {
         display: flex;
         flex-wrap: wrap;
+        width: 290px;
 
         .experience-header:after {
             width: 260px;
@@ -494,7 +495,7 @@ li.tech-items:hover {
     @media only screen and (max-width: 600px) {
         height: 100%;
         width: 100%;
-        max-width: 75%;
+        max-width: 65%;
     }
 }
 
@@ -624,6 +625,7 @@ h5 {
     align-items: center;
     display: flex;
     flex-direction: column;
+
     .final-text {
         width: 50%;
         font-family: $font_1;
@@ -634,7 +636,7 @@ h5 {
         color: #000;
     }
     @media only screen and (max-width: 600px) {
-        width: 260px;
+        width: 290px;
 
         .final-text {
         width: 100%;
@@ -652,10 +654,8 @@ h5 {
         padding: 2% 0;
         text-align: center;
         @media only screen and (max-width: 600px) {
-            font-weight: 400;
             font-size: 0.7rem;
-            width: 100%;
-            max-width: 100vw;
+            width: 380px;
         }
     }
 
