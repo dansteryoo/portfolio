@@ -63,6 +63,7 @@ $font_bold: 'Poppins';
     
     @media only screen and (max-width: 1280px) {
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     @media only screen and (max-width: 600px) {
@@ -92,12 +93,18 @@ $font_bold: 'Poppins';
     }
 
     @media only screen and (max-width: 1280px) {
-        align-items: flex-start;
+        align-items: center;
         display: flex;
+        justify-content: center;
         .profile-img {
             padding-left: 0;
             width: 70%;
         }
+    }
+
+    @media only screen and (max-width: 900px) {
+        align-items: center;
+        justify-content: center;
     }
 
     @media only screen and (max-width: 600px) {
@@ -129,6 +136,21 @@ $font_bold: 'Poppins';
 
     @media only screen and (max-width: 1280px) {
         width: 70%;
+        padding: 0 20%;
+    }
+
+    @media only screen and (max-width: 900px) {
+        width: 80%;
+        padding: 0 12%;
+    
+        img {
+            width: 20%;
+        }
+        
+        #mongo {
+            width: 10%;
+            padding: 0 20px;
+        }
     }
 
     @media only screen and (max-width: 600px) {
