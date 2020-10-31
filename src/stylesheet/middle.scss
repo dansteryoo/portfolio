@@ -67,6 +67,8 @@ $font_bold: 'Poppins';
 
     @media only screen and (max-width: 600px) {
         flex-wrap: wrap;
+        justify-content: center;
+
         .bio-text {
             line-height: 1.5rem;
             font-size: 0.8rem;
@@ -132,7 +134,6 @@ $font_bold: 'Poppins';
     @media only screen and (max-width: 600px) {
         flex-wrap: wrap;
         width: 100%;
-        max-width: 290px;
 
         img {
             width: 33%;
@@ -289,9 +290,6 @@ $font_bold: 'Poppins';
     border-radius: 4px;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     filter: grayscale(80%);
-    @media only screen and (max-width: 600px) {
-        width: 100% !important;
-    }
 }
 
 .project-1-pic {
@@ -301,6 +299,9 @@ $font_bold: 'Poppins';
 .project-2-pic {
     grid-column: 7 / 24;
     width: 97%;
+    @media only screen and (max-width: 600px) {
+        width: 110% !important;
+    }
 }
 
 .project-1-pic:hover,
@@ -358,7 +359,7 @@ $font_bold: 'Poppins';
 
     @media only screen and (max-width: 600px) {
         padding: 10px 15px;  
-
+        width: 100%; 
         .proj-description-text {
             font-size: 0.7rem;
         }

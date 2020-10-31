@@ -60,13 +60,10 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
     }
   
     @media only screen and (max-width: 900px) {
-      ul {
+      .logo {
         display: none;
       }
-    }
-
-    @media only screen and (max-width: 600px) {
-      .logo {
+      ul {
         display: none;
       }
     }

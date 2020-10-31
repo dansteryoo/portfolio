@@ -9,6 +9,12 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
     width: 15%;
 }
 
+.mid-top-container {
+    @media only screen and (max-width: 900px) {
+        padding-left: 10%;
+    }
+}
+
 .mid-container {
     width: 100%;
     margin: 5% 20% 0;
@@ -28,7 +34,6 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
         font-family: 'Poppins';
         line-height: 4rem;  
         margin: 4% 0;
-        min-width: 600px;
     }
 
     .second-text {
@@ -46,18 +51,26 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
         font-weight: 600;
         font-size: 1.7em;
         padding-bottom: 6%;
-        width: 600px;
+        width: 100%;
+        max-width: 820px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1280px) {
+        .third-text {
+            width: 100%;
+            max-width: 660px;
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
         width: 100%;
+        max-width: 320px;
         margin: 0;
-        padding: 5% 0% 0 10%;
-        max-width: 370px;
+        padding: 5% 0% 0 8%;
 
         p {
             font-weight: 500;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
         }
 
         .name-text {
@@ -72,7 +85,7 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
             font-size: 1rem;
             line-height: 1.8rem;
             width: 100%;
-            max-width: 290px;
+            max-width: 250px;
         }
     }
 }
