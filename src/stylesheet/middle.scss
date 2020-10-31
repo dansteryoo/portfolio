@@ -99,7 +99,7 @@ $font_bold: 'Poppins';
         display: flex;
         justify-content: center;
         .profile-img {
-            padding-left: 0;
+            padding: 10% 0;
             width: 70%;
         }
     }
@@ -160,8 +160,7 @@ $font_bold: 'Poppins';
     }
 
     @media only screen and (max-width: 600px) {
-        flex-wrap: wrap;
-        width: 100%;
+        padding: 0 9%;
 
         img {
             width: 33%;

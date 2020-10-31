@@ -27,7 +27,7 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
     ul {
         display: flex;
         margin-top: 3.0%;
-        margin-left: 40%;
+        margin-left: 60%;
         font-family: $font_1;
         font-size: 16px;
         font-weight: 500;
@@ -53,9 +53,15 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
         }
     }
 
+    @media only screen and (max-width: 1440px) {
+      ul {
+        margin-left: 50%;
+      }
+    }
+
     @media only screen and (max-width: 1280px) {
       ul {
-        margin-left: 20%;
+        margin-left: 40%;
       }
     }
   

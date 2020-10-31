@@ -66,8 +66,6 @@ class NavBar extends React.Component {
                     <li onClick={this.handleClick.bind(this)} className="first"><div>01.</div>About Me</li>
                     <li onClick={this.handleClick.bind(this)} className="third"><div>02.</div>My Projects</li>
                     <li onClick={this.handleClick.bind(this)} className="fourth"><div>03.</div>Contact Me</li>
-                    <li onClick={this.handleClick.bind(this)} className="fifth"><a href={Resume} target="_blank" rel="noopener noreferrer">
-                    <button className="resume-button">My Resume</button></a></li>
                 </ul>
 
             </div>
