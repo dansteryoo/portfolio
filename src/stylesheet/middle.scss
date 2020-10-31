@@ -53,12 +53,14 @@ $font_bold: 'Poppins';
         width: 47%;
         width: 430px;
         color: $dark_gray;
-        font-family: sans-serif;
-        line-height: 1.8rem;
-        font-size: 1.0rem;
-        font-weight: 500;
         max-width: 500px;
         margin-top: 20px;
+        p {
+            font-family: sans-serif;
+            line-height: 1.8rem;
+            font-size: 1.0rem;
+            font-weight: 500;
+        }
     }
     
     @media only screen and (max-width: 1280px) {
@@ -132,6 +134,10 @@ $font_bold: 'Poppins';
 
     #mongo {
         width: 6%;
+    }
+
+    @media only screen and (max-width: 1440px) {
+        width: 95%;
     }
 
     @media only screen and (max-width: 1280px) {

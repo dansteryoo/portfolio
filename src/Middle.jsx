@@ -49,11 +49,11 @@ class Middle extends React.Component {
             <div className="mid-top-container">
               <p>Hey world, my name is</p>
 
-              <ScrollAnimation animateIn="fadeIn" delay="200">
+              <ScrollAnimation animateIn="fadeIn" delay={200}>
                 <h1 className="name-text">Danny Yoo.</h1>
               </ScrollAnimation>
 
-              <ScrollAnimation animateIn="fadeIn" delay="400">
+              <ScrollAnimation animateIn="fadeIn" delay={400}>
                 <p className="third-text">
                   I'm a software engineer based in Queens, New York specializing
                   in building and designing full stack applications and websites
@@ -61,10 +61,10 @@ class Middle extends React.Component {
                   my projects below!
                 </p>
               </ScrollAnimation>
-              <ScrollAnimation animateIn="fadeIn" delay="500">
-                  <a href={Resume} target="_blank" rel="noopener noreferrer">
-                    <button className="Get-In-Touch">My Resume</button>
-                  </a>
+              <ScrollAnimation animateIn="fadeIn" delay={500}>
+                <a href={Resume} target="_blank" rel="noopener noreferrer">
+                  <button className="Get-In-Touch">My Resume</button>
+                </a>
               </ScrollAnimation>
             </div>
 
@@ -72,18 +72,21 @@ class Middle extends React.Component {
               <ScrollAnimation animateIn="fadeIn">
                 <div className="About-me-header">About Me</div>
                 <div className="prof-container">
-                  <p className="bio-text">
-                    Hello! I'm Danny, a software engineer based in Queens, NY.
-                    I'm an avid pizza lover, and a loyal sports fanatic to my
-                    lowly Jets, Mets, Rangers, and Knicks. I love to learn and I
-                    am currently learning to love how to program solutions for
-                    real life problems. Some of my upcoming projects are
-                    solutions to problems I have personally dealt with
-                    throughout my professional career. You can check out my
-                    progress below!
-                    <br></br>
-                    <br></br>
-                    Here are a few technologies I've been working with recently:
+                  <div className="bio-text">
+                    <p>
+                      Hello! I'm Danny, a software engineer based in Queens, NY.
+                      I'm an avid pizza lover, and a loyal sports fanatic to my
+                      lowly Jets, Mets, Rangers, and Knicks. I love to learn and
+                      I am currently learning to love how to program solutions
+                      for real life problems. Some of my upcoming projects are
+                      solutions to problems I have personally dealt with
+                      throughout my professional career. You can check out my
+                      progress below!
+                      <br></br>
+                      <br></br>
+                      Here are a few technologies I've been working with
+                      recently:
+                    </p>
                     <ul className="tech-list-exp">
                       <li className="tech-item">JavaScript</li>
                       <li className="tech-item">Node.js</li>
@@ -98,7 +101,7 @@ class Middle extends React.Component {
                       <li className="tech-item">React + Redux</li>
                       <li className="tech-item">Heroku</li>
                     </ul>
-                  </p>
+                  </div>
                   <div className="profile-pic">
                     <img
                       className="profile-img"
@@ -426,7 +429,7 @@ class Middle extends React.Component {
                     <h4 className="header-4">Upcoming Projects</h4>
                   </ScrollAnimation>
                   <div className="noteworthy-projects">
-                    <ScrollAnimation animateIn="fadeIn" delay="500">
+                    <ScrollAnimation animateIn="fadeIn" delay={500}>
                       <div className="note-1">
                         <div className="inner-cont">
                           <header>
