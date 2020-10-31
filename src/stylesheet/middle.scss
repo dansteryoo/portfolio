@@ -637,13 +637,12 @@ h5 {
         color: #000;
     }
     @media only screen and (max-width: 600px) {
-        width: 290px;
-
+        padding: 0 12%;
         .final-text {
-        width: 100%;
-        font-weight: 400;
-        font-size: .8rem;
-        line-height: 1.2rem;
+            width: 100%;
+            font-weight: 400;
+            font-size: .8rem;
+            line-height: 1.2rem;
         }
     }
 }
@@ -656,7 +655,6 @@ h5 {
         text-align: center;
         @media only screen and (max-width: 600px) {
             font-size: 0.7rem;
-            width: 380px;
         }
     }
 
