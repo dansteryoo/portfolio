@@ -402,7 +402,7 @@ $font_bold: 'Poppins';
     text-align: right;
     @media only screen and (max-width: 600px) {
         text-align: left;
-        padding: 0;
+        padding: 0 0 2%;
     }
 }
 
@@ -426,6 +426,9 @@ li.tech-items:hover {
     margin: 0;
     list-style: none;
     flex-direction: column;
+    @media only screen and (max-width: 600px) {
+        padding: 0 0 2%;
+    }
 }
 
 .go-to {
