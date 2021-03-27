@@ -268,8 +268,8 @@ $font_bold: 'Poppins';
 }
 
 
-.Project-1, 
-.Project-2 {
+.proj-1, 
+.proj-2 {
     margin-top: 5%;
     display: grid;
     -webkit-box-align: center;
@@ -293,24 +293,24 @@ $font_bold: 'Poppins';
     }
 }
 
-.project-1-rightside, 
-.project-2-rightside {
+.proj-1-rightside, 
+.proj-2-rightside {
         position: relative;
         grid-row: 1 / -1;
         z-index: 2;
         text-align: left;
 }
 
-.project-1-rightside {
+.proj-1-rightside {
     grid-column: 15 / 24;
 }
 
-.project-2-rightside {
+.proj-2-rightside {
     grid-column: 1 / 10;
 }
 
-.project-1-pic,
-.project-2-pic {
+.proj-1-pic,
+.proj-2-pic {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
     z-index: 1;
     grid-row: 1 / -1;
@@ -319,24 +319,30 @@ $font_bold: 'Poppins';
     filter: grayscale(80%);
 }
 
-.project-1-pic {
+.proj-1-pic {
     grid-column: 1 / 17;
-    width: 110%;
+    width: 96.5%;
 }
-.project-2-pic {
+
+.proj-2-pic {
     grid-column: 7 / 24;
-    width: 97%;
+    width: 88.25%;
+
     @media only screen and (max-width: 600px) {
+        width: 285% !important;
+    }
+
+    @media only screen and (max-width: 420px) {
         width: 110% !important;
     }
 }
 
-.project-1-pic:hover,
-.project-2-pic:hover {
+.proj-1-pic:hover,
+.proj-2-pic:hover {
     filter: none;
 }
 
-.project-1-links {
+.proj-1-links {
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
@@ -376,7 +382,7 @@ $font_bold: 'Poppins';
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     padding: 25px;
     border-radius: 3px;
-    width: 85%; 
+    width: 86%; 
     
     .proj-description-text {
         font-size: 13px;
@@ -450,7 +456,7 @@ li.tech-items:hover {
     transform: translateY(-3px);
 }
 
-.noteworthy-projects {
+.noteworthy-projs {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     position: relative;
@@ -667,7 +673,7 @@ h5 {
         color: #000;
     }
     @media only screen and (max-width: 600px) {
-        padding: 0 12%;
+        padding: 0 11%;
         .final-text {
             width: 100%;
             font-weight: 400;

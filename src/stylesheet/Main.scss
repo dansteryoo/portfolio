@@ -56,7 +56,7 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
     }
 
     @media only screen and (max-width: 1440px) {
-        margin: 5% 10% 0;
+        margin: 5% 7% 0;
         max-width: 1180px;
     }
 
@@ -93,16 +93,20 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
     @media only screen and (max-width: 600px) {
         width: 100%;
         max-width: 320px;
-        margin: 0;
-        padding: 5% 0% 0 8%;
+        padding: 5% 0% 0 6%;
 
         .third-text {
             font-weight: 500;
             font-size: 1rem;
             line-height: 1.8rem;
             width: 100%;
-            max-width: 250px;
+            max-width: 260px;
         }
+    }
+
+    @media only screen and (max-width: 400px) {
+        margin: 0;
+        padding: 5% 0% 0 8%;
     }
 }
 
