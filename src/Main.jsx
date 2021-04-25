@@ -8,13 +8,9 @@ const Main = () => {
     return (
         <div>
             <div className="main-container">
-                <LeftNav></LeftNav>
-                <Middle></Middle>
-                <RightSide></RightSide>
-            </div>
-            <div className="credits">
-                Design inspired by https://brittanychiang.com, built by Danny
-                Yoo
+                <LeftNav/>
+                <Middle/>
+                <RightSide/>
             </div>
         </div>
     );

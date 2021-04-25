@@ -1,46 +1,32 @@
-import React from 'react';
-import './App.css';
-import NavBar from './Navbar.jsx'
-import Loading from './loading.gif'
-import MainContainer from './Main.jsx'
+import React, { useState, useEffect, Fragment } from "react";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Main from "./Main";
+import Loading from "./static/loading.gif";
 
-class App extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      loaded: false
-    }
-  }
+const App = () => {
+    const [loaded, setLoaded] = useState(false);
 
-  componentDidMount() {
-    setTimeout(
-      function () {
-        this.setState({ loaded: true });
-      }
-        .bind(this),
-      3000
-    );
-  }
+    useEffect(() => {
+        setTimeout(() => {
+            setLoaded(true);
+        }, 3000);
+    });
 
-  render() {
-    let loaded;
-    if (this.state.loaded) {
-      loaded = <>
-        <NavBar ></NavBar>
-        <MainContainer ></MainContainer>
-      </>
+    if (loaded) {
+        return (
+            <Fragment>
+                <Navbar />
+                <Main />
+            </Fragment>
+        );
     } else {
-      loaded = <div className="loading-container">
-        <img className="loading-logo" src={Loading} alt="loading"></img>
-      </div>
-
+        return (
+            <div className="loading-container">
+                <img className="loading-logo" src={Loading} alt="loading"></img>
+            </div>
+        );
     }
-    return (
-      <>
-        {loaded}
-      </>
-    )
-  }
-}
+};
 
 export default App;
