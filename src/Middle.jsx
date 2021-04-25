@@ -80,7 +80,7 @@ const Middle = () => {
                         I'm a software engineer based in Queens, New York
                         specializing in building and designing full stack
                         applications and websites that solves real life problems
-                        for real life people. Check out my projs below!
+                        for real life people. Check out my projects below!
                     </p>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeIn" delay={500}>
@@ -103,7 +103,7 @@ const Middle = () => {
                                 sports fanatic to my lowly Jets, Mets, Rangers,
                                 and Knicks. I love to learn and I am currently
                                 learning to love how to program solutions for
-                                real life problems. Some of my upcoming projs
+                                real life problems. Some of my upcoming projects
                                 are solutions to problems I have personally
                                 dealt with throughout my professional career.
                                 You can check out my progress below!
