@@ -1,0 +1,85 @@
+$mint: #c0ffe6;
+$dark_gray: #3d3d3d;
+
+.left-container {
+    position: fixed;
+    bottom: 0px;
+    left: -50px;
+    right: auto;
+    z-index: 10;
+    color: $dark_gray;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    @media only screen and (max-width: 900px) {
+        display: none;
+    }
+}
+
+.linked-in {
+    fill: $dark_gray;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.github {
+    fill: $dark_gray;
+    width: 30px;
+    height: 30px;
+    margin: 20px 0;
+}
+
+.angel {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    g {
+        path {
+            fill: $dark_gray;
+        }
+    }
+    height: 30px;
+}
+
+.linked-in:hover, .github:hover, .angel:hover {
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    fill: $mint;
+    display: inline-block;
+    text-decoration-skip-ink: auto;
+    color: $mint;
+    position: relative;
+    text-decoration: none;
+    transform: translateY(-3px);
+}
+
+
+.angel:hover {
+    
+    g {
+        path {
+            fill: $mint
+        }
+    }
+    
+}
+
+
+
+.left-container:after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: black;
+    margin: 0px auto;
+}
+
+
+
+
