@@ -6,7 +6,7 @@ $font_1: Averta-Regular, Avenir, Helvetica Neue, Calibri, Helvetica, Roboto, san
 $font_bold: 'Poppins';
 
 .About-Me-Container {
-    margin-top: 23%;
+    margin: 23% 0 23% 5%;
 
     .About-me-header {
         color: $dark_gray;
@@ -30,7 +30,7 @@ $font_bold: 'Poppins';
     }
 
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         .About-me-header {
             font-size: 28px;
         }
@@ -54,7 +54,7 @@ $font_bold: 'Poppins';
         width: 430px;
         color: $dark_gray;
         max-width: 500px;
-        margin-top: 20px;
+        margin-top: 3rem;
         p {
             font-family: sans-serif;
             line-height: 1.8rem;
@@ -68,7 +68,7 @@ $font_bold: 'Poppins';
         justify-content: center;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         flex-wrap: wrap;
         justify-content: center;
 
@@ -90,7 +90,7 @@ $font_bold: 'Poppins';
 
     .profile-img {
         width: 90%;
-        max-width: 600px;
+        max-width: 700px;
         padding-left: 30px;
     }
 
@@ -109,7 +109,7 @@ $font_bold: 'Poppins';
         justify-content: center;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         align-items: center;
         display: flex;
         width: 290px;
@@ -159,7 +159,7 @@ $font_bold: 'Poppins';
         }
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         padding: 0 9%;
 
         img {
@@ -199,7 +199,7 @@ $font_bold: 'Poppins';
         color: #808080;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         grid-template-columns: repeat(2, minmax(140px, 200px));
 
         li {
@@ -217,7 +217,7 @@ $font_bold: 'Poppins';
     li {
         display: flex;
         font-family: monospace;
-        font-size: 1.0rem;
+        font-size: 1rem;
         line-height: 1.5rem;
         align-items: center;
         color: #D9FFF0;
@@ -282,7 +282,7 @@ $font_bold: 'Poppins';
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         display: flex;
         flex-wrap: wrap;
         width: 290px;
@@ -294,7 +294,7 @@ $font_bold: 'Poppins';
 }
 
 .proj-1-rightside, 
-.proj-2-rightside {
+.proj-2-leftside {
         position: relative;
         grid-row: 1 / -1;
         z-index: 2;
@@ -305,37 +305,33 @@ $font_bold: 'Poppins';
     grid-column: 15 / 24;
 }
 
-.proj-2-rightside {
+.proj-2-leftside {
     grid-column: 1 / 10;
+}
+
+.proj-1-pic-wrapper,
+.proj-2-pic-wrapper {
+    width: 100%;
+    z-index: 1;
+    grid-row: 1 / -1;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.proj-1-pic-wrapper {
+    grid-column: 1 / 17;
+}
+
+.proj-2-pic-wrapper {
+    grid-column: 7 / 24;
 }
 
 .proj-1-pic,
 .proj-2-pic {
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
-    z-index: 1;
-    grid-row: 1 / -1;
-    border-radius: 4px;
-    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     filter: grayscale(80%);
+    width: 100%;
 }
 
-.proj-1-pic {
-    grid-column: 1 / 17;
-    width: 96.5%;
-}
-
-.proj-2-pic {
-    grid-column: 7 / 24;
-    width: 88.25%;
-
-    @media only screen and (max-width: 600px) {
-        width: 285% !important;
-    }
-
-    @media only screen and (max-width: 420px) {
-        width: 110% !important;
-    }
-}
 
 .proj-1-pic:hover,
 .proj-2-pic:hover {
@@ -346,7 +342,7 @@ $font_bold: 'Poppins';
     display: flex;
     justify-content: flex-end;
     padding-right: 30px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         justify-content: flex-start;
     }
 }
@@ -368,7 +364,7 @@ $font_bold: 'Poppins';
     margin: 0px 0px 20px;
     font-weight: bold;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         font-size: 24px;
         font-weight: bold;
     }
@@ -390,12 +386,16 @@ $font_bold: 'Poppins';
         text-align: left;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         padding: 10px 15px;  
         width: 100%; 
         .proj-description-text {
             font-size: 0.7rem;
         }
+    }
+
+    @media only screen and (max-width: 420px) {
+        width: 90%; 
     }
 }
 
@@ -406,7 +406,7 @@ $font_bold: 'Poppins';
     margin: 0;
     padding-right: 30px;
     text-align: right;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         text-align: left;
         padding: 0 0 2%;
     }
@@ -432,7 +432,7 @@ li.tech-items:hover {
     margin: 0;
     list-style: none;
     flex-direction: column;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         padding: 0 0 2%;
     }
 }
@@ -457,10 +457,9 @@ li.tech-items:hover {
 }
 
 .noteworthy-projs {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    position: relative;
-    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .noteworthy-container {
@@ -485,7 +484,7 @@ li.tech-items:hover {
     font-family: $font_bold;
     margin-bottom: 10%;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         font-size: 1.5rem;
         margin-bottom: 15%;
     }
@@ -506,12 +505,12 @@ li.tech-items:hover {
     text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
-    cursor: pointer;
     text-decoration: none;
     transform: translateY(-10px);
 }
 
 .inner-cont {
+    width: 250px;
     box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -15px;
     display: flex;
     -webkit-box-pack: justify;
@@ -529,10 +528,10 @@ li.tech-items:hover {
     .top-logo-cont {
         min-width: 260px;    
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         height: 100%;
         width: 100%;
-        max-width: 65%;
+        max-width: 75%;
     }
 }
 
@@ -541,7 +540,7 @@ li.tech-items:hover {
     fill: #D9FFF0;
     width: 40px;
     margin-right: 140px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         margin-right: 34%;
     }
 }
@@ -593,7 +592,7 @@ h5 {
 .descript-note {
     color: #d3d3d3;
     line-height: 1.5rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         font-size: 12px;
         width: 80%;
     }
@@ -613,7 +612,7 @@ h5 {
     justify-content: center;
     text-align: center;
     margin: 10px 0px 20px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         text-align: left;
         font-size: 28px;
     }
@@ -672,7 +671,7 @@ h5 {
         line-height: 2rem;
         color: #000;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
         padding: 0 11%;
         .final-text {
             width: 100%;
@@ -689,7 +688,7 @@ h5 {
         background-color: darkgray;
         padding: 2% 0;
         text-align: center;
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 700px) {
             font-size: 0.7rem;
         }
     }
