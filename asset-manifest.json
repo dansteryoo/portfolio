@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.deeb5100.chunk.css",
-    "main.js": "/static/js/main.baba2dfc.chunk.js",
-    "main.js.map": "/static/js/main.baba2dfc.chunk.js.map",
+    "main.css": "/static/css/main.9401a490.chunk.css",
+    "main.js": "/static/js/main.510eb047.chunk.js",
+    "main.js.map": "/static/js/main.510eb047.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.dd1866a9.chunk.css": "/static/css/2.dd1866a9.chunk.css",
-    "static/js/2.1d0946ca.chunk.js": "/static/js/2.1d0946ca.chunk.js",
-    "static/js/2.1d0946ca.chunk.js.map": "/static/js/2.1d0946ca.chunk.js.map",
+    "static/js/2.17a884d8.chunk.js": "/static/js/2.17a884d8.chunk.js",
+    "static/js/2.17a884d8.chunk.js.map": "/static/js/2.17a884d8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7e12ece029cbe1bf75e0d6262d79255a.js": "/precache-manifest.7e12ece029cbe1bf75e0d6262d79255a.js",
+    "precache-manifest.5d0167315f1cebafb68eae40c57b543c.js": "/precache-manifest.5d0167315f1cebafb68eae40c57b543c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.dd1866a9.chunk.css.map": "/static/css/2.dd1866a9.chunk.css.map",
-    "static/css/main.deeb5100.chunk.css.map": "/static/css/main.deeb5100.chunk.css.map",
-    "static/js/2.1d0946ca.chunk.js.LICENSE.txt": "/static/js/2.1d0946ca.chunk.js.LICENSE.txt",
-    "static/media/Danny_Yoo_SWE_Resume.pdf": "/static/media/Danny_Yoo_SWE_Resume.0305ef3c.pdf",
+    "static/css/main.9401a490.chunk.css.map": "/static/css/main.9401a490.chunk.css.map",
+    "static/js/2.17a884d8.chunk.js.LICENSE.txt": "/static/js/2.17a884d8.chunk.js.LICENSE.txt",
+    "static/media/Danny_Yoo_SWE_Resume.pdf": "/static/media/Danny_Yoo_SWE_Resume.85a38796.pdf",
     "static/media/Github.41e0aa46.svg": "/static/media/Github.41e0aa46.svg",
     "static/media/angel.59d4e824.svg": "/static/media/angel.59d4e824.svg",
     "static/media/chairsbnb.png": "/static/media/chairsbnb.fc90616c.png",
@@ -36,16 +36,16 @@
     "static/media/redux.png": "/static/media/redux.6cb497a0.png",
     "static/media/rubyonrails.png": "/static/media/rubyonrails.ad3fdbd5.png",
     "static/media/sass.png": "/static/media/sass.2024fc1d.png",
+    "static/media/schoolforce.png": "/static/media/schoolforce.ce513824.png",
     "static/media/sqf.svg": "/static/media/sqf.935d67fc.svg",
     "static/media/ts.png": "/static/media/ts.82dc04ea.png",
-    "static/media/vbs_helper.png": "/static/media/vbs_helper.3689003c.png",
     "static/media/we_read_truth.png": "/static/media/we_read_truth.3264fe73.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.dd1866a9.chunk.css",
-    "static/js/2.1d0946ca.chunk.js",
-    "static/css/main.deeb5100.chunk.css",
-    "static/js/main.baba2dfc.chunk.js"
+    "static/js/2.17a884d8.chunk.js",
+    "static/css/main.9401a490.chunk.css",
+    "static/js/main.510eb047.chunk.js"
   ]
 }
