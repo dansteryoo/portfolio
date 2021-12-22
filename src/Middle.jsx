@@ -34,11 +34,11 @@ const TECH_ICONS = [
 	reduxImg,
 	graphqlImg,
 	expressImg,
-	mongodbImg,
-	postresqlImg,
-	herokuImg,
 	html5Img,
 	sassImg,
+	postresqlImg,
+	herokuImg,
+	mongodbImg,
 ];
 const TECHNOLOGIES = [
 	'JavaScript',
