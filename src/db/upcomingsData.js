@@ -4,7 +4,14 @@ export const upcomingsData = [
 		description: 'The website for New Church of Atlanta English Ministry',
 		githubUrl: '#',
 		techItems: ['React', 'Material UI', 'Firebase', 'React Hook Form', 'Yup'],
-		siteUrl: 'https://newchurchatlem.netlify.app',
+		siteUrl: 'https://newchurchatl.com',
+	},
+	{
+		name: 'Registrations.church',
+		description: 'A website to help non-profits manage their events.',
+		githubUrl: '#',
+		techItems: ['React', 'Nextjs', 'Apollo', 'Node.js', 'MongoDb'],
+		siteUrl: 'https://registrations.church',
 	},
 	{
 		name: 'Off the Pulpit Podcast',
