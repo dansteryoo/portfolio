@@ -1,5 +1,6 @@
-import React from "react";
 import "../stylesheet/navbar.scss";
+
+import React from "react";
 import logo_circle from "../static/sqf.svg";
 
 const Navbar = () => {
@@ -29,10 +30,10 @@ const Navbar = () => {
                     <div>01.</div>About
                 </li>
                 <li
-                    onClick={() => scrollToView("my-projects")}
+                    onClick={() => scrollToView("my-work")}
                     className="second"
                 >
-                    <div>02.</div>Projects
+                    <div>02.</div>Work
                 </li>
                 <li
                     onClick={() => scrollToView("contact-me")}
