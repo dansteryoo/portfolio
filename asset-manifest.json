@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c1e1bdbb.css",
-    "main.js": "/static/js/main.1506cc3d.js",
+    "main.js": "/static/js/main.c3a261fd.js",
     "static/media/ncaem.png": "/static/media/ncaem.bfac407792d1a8877b16.png",
     "static/media/empire.jpg": "/static/media/empire.1c0306112d7c4d3d9ed0.jpg",
     "static/media/loading.gif": "/static/media/loading.43ca37383742d3a28dfa.gif",
     "static/media/weReadTruth.png": "/static/media/weReadTruth.a966af61d215e7690570.png",
-    "static/media/Danny_Yoo_SWE_Resume.pdf": "/static/media/Danny_Yoo_SWE_Resume.2726db6722cd6c55d077.pdf",
     "static/media/faithly.png": "/static/media/faithly.28d8e1e872e5c2e99789.png",
     "static/media/angel.svg": "/static/media/angel.838999c9d5533295b7f7fb2c6986a360.svg",
     "static/media/sqf.svg": "/static/media/sqf.97de3a8ed11454732b9f55c50524cd7e.svg",
@@ -14,10 +13,10 @@
     "static/media/Github.svg": "/static/media/Github.49399358d07c8205d0b8838330c45630.svg",
     "static/media/linkedIn.svg": "/static/media/linkedIn.21460741be13f72c5bfe994dca9461e4.svg",
     "main.c1e1bdbb.css.map": "/static/css/main.c1e1bdbb.css.map",
-    "main.1506cc3d.js.map": "/static/js/main.1506cc3d.js.map"
+    "main.c3a261fd.js.map": "/static/js/main.c3a261fd.js.map"
   },
   "entrypoints": [
     "static/css/main.c1e1bdbb.css",
-    "static/js/main.1506cc3d.js"
+    "static/js/main.c3a261fd.js"
   ]
 }
