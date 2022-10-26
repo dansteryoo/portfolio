@@ -4,7 +4,6 @@ import './stylesheet/animate.css';
 
 import Project from './components/Project';
 import React from 'react';
-import Resume from './static/Danny_Yoo_SWE_Resume.pdf';
 import ScrollAnimation from 'react-animate-on-scroll';
 import empireImg from './static/empire.jpg';
 import { workData } from './db/workData';
@@ -30,11 +29,6 @@ const Middle = () => {
 							Faithly.
 						</a>
 					</p>
-				</ScrollAnimation>
-				<ScrollAnimation animateIn='fadeIn' delay={500}>
-					<a href={Resume} target='_blank' rel='noopener noreferrer'>
-						<button className='Get-In-Touch'>My Resume</button>
-					</a>
 				</ScrollAnimation>
 			</div>
 			{/* ----------ABOUT ME ---------- */}
